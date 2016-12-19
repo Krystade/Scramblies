@@ -12,16 +12,17 @@ public class Scramblies {
                     truth[i] = 1;
                     s1[j] = "-";
                     break;
-                }
+                }else{}
             }
         }
         
         for (int test : truth){
             if (test == 0){
                 same = false;
-            }
+                break;
+            }else{}
         }
-        System.out.println(same);
-        //return same;
+        //System.out.println(same);
+        return same;
     }
 }
