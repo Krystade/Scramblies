@@ -12,7 +12,7 @@ public class Scramblies {
                     truth[i] = 1;
                     s1[j] = "-";
                     break;
-                }else{}
+                }
             }
         }
         
@@ -20,7 +20,7 @@ public class Scramblies {
             if (test == 0){
                 same = false;
                 break;
-            }else{}
+            }
         }
         //System.out.println(same);
         return same;
